@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Off the Wall Shop - Unique Products from AliExpress and Alibaba">
+    <title>Off the Wall Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="overlay">
+            <h1 data-aos="fade-down">Off the Wall Shop</h1>
+            <p data-aos="fade-up">Affordable Finds from AliExpress and Alibaba, All in One Place!</p>
+            <a href="#categories" class="btn" data-aos="zoom-in">Explore Categories</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Product Categories Section -->
+        <section id="categories" class="categories" data-aos="fade-up">
+            <h2>Shop by Category</h2>
+            <div class="category-grid">
+                <div class="category" data-aos="zoom-in">
+                    <img src="electronics.jpg" alt="Electronics">
+                    <h3>Electronics</h3>
+                    <a href="#products" class="btn">View Products</a>
+                </div>
+                <div class="category" data-aos="zoom-in">
+                    <img src="clothing.jpg" alt="Clothing">
+                    <h3>Clothing</h3>
+                    <a href="#products" class="btn">View Products</a>
+                </div>
+                <div class="category" data-aos="zoom-in">
+                    <img src="gadgets.jpg" alt="Gadgets">
+                    <h3>Gadgets</h3>
+                    <a href="#products" class="btn">View Products</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products Section -->
+        <section id="products" class="products" data-aos="fade-left">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product" data-aos="zoom-in">
+                    <img src="product1.jpg" alt="Product 1">
+                    <h3>Wireless Headphones</h3>
+                    <p>$29.99</p>
+                    <a href="https://www.aliexpress.com" class="btn">Buy Now</a>
+                </div>
+                <div class="product" data-aos="zoom-in">
+                    <img src="product2.jpg" alt="Product 2">
+                    <h3>Smartwatch</h3>
+                    <p>$49.99</p>
+                    <a href="https://www.aliexpress.com" class="btn">Buy Now</a>
+                </div>
+                <div class="product" data-aos="zoom-in">
+                    <img src="product3.jpg" alt="Product 3">
+                    <h3>Portable Speaker</h3>
+                    <p>$19.99</p>
+                    <a href="https://www.aliexpress.com" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact" data-aos="fade-right">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Off the Wall Shop. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
